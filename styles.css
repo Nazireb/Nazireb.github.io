@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: mediumslateblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 h1{
@@ -10,7 +10,7 @@ h1{
     display: flex;
     margin: 10px;
     padding: 10px;
-    background: burlywood;
+    background: darkolivegreen;
 }
 .assign img{
     width: 200px;
