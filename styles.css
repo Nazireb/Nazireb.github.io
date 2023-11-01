@@ -6,6 +6,10 @@ h1{
     color: midnightblue;
     text-align: center;
 }
+a {
+    text-decoration: none;
+    color: white;
+}
 .assign{
     display: flex;
     margin: 10px;
