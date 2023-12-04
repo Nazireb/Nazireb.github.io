@@ -26,5 +26,10 @@ a {
 .assign img{
     width: 200px;
     padding: 10px;
-    border: 0px solid lavender;
+    border: 2px solid lavender;
+}
+.assign img {
+    width: 200px;
+    margin: 10px;
+    border: 2px dotted black;
 }
