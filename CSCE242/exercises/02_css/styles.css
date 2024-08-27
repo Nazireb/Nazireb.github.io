@@ -11,6 +11,30 @@ body {
     width: 70%;
     border-radius: 10px solid green;
 }
+/* Navigation */
+#main-nav ul {
+    padding-left: 0;
+    width: fit-content;
+    margin: auto;
+}
+
+#main-nav li {
+    list-style-type: none; /* No bullets */
+    display: inline-block; /* Appear on one line*/
+}
+#main-nav a {
+    text-decoration: none; /* No underline */
+    background: pink;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+#main-nav a:hover {
+    background: black;
+    
+}
 
 /* Typegraphy */
 
