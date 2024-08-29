@@ -15,15 +15,15 @@ body {
 }
 #main-nav a {
     text-decoration: none; 
-    background: pink;
-    color: #F2E5A0;
+    background: #F2E5A0;
+    color: #A65424;
     padding: 5px;
     margin: 5px;
     border-radius: 2px;
 }
 
 #main-nav a:hover {
-    background: #A65424;
+    background: #B1BF49;
     
 }
 
@@ -34,5 +34,24 @@ h1 {
 
 
 p {
+    color: #A65424;
+}
+
+h2 {
     color: #F2E5A0;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F2E5A0;
+}
+th,
+td {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+th {
+    background: #A65424;
 }
