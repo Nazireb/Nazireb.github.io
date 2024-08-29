@@ -3,6 +3,13 @@ body {
     background: #594336;
     font-family: Arial, Helvetica, sans-serif;
 }
+#content {
+    background: white;
+    padding: 5px;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px solid green;
+}
 
 #main-nav a {
     text-decoration: none;
