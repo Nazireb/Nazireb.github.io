@@ -1,7 +1,10 @@
 body {
     background: #3E4001;
     font-family: Arial, Helvetica, sans-serif;
-    background: url(images/Avocados2.jpg);
+    background: url(images/AvocadoGreen.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #main-nav ul {
@@ -35,7 +38,7 @@ h1 {
 
 
 p {
-    color: #A65424;
+    color: #F2E5A0;
 }
 
 h2 {
