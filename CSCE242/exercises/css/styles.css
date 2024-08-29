@@ -1,0 +1,38 @@
+body {
+    background: #3E4001;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-nav ul {
+    padding-left: 0;
+    width: fit-content;
+    margin: auto;
+}
+
+#main-nav li {
+    list-style-type: none; 
+    display: inline-block; 
+}
+#main-nav a {
+    text-decoration: none; 
+    background: pink;
+    color: #F2E5A0;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+#main-nav a:hover {
+    background: #A65424;
+    
+}
+
+
+h1 {
+    color:#F2E5A0;
+}
+
+
+p {
+    color: #F2E5A0;
+}
