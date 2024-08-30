@@ -1,10 +1,10 @@
 
 body {
-    background: #594336;
+    background: #C8E9F9;
     font-family: Arial, Helvetica, sans-serif;
 }
 #content {
-    background: white;
+    background: lightpink;
     padding: 5px;
     margin: 20px auto;
     width: 70%;
@@ -13,7 +13,7 @@ body {
 
 #main-nav a {
     text-decoration: none;
-    color:  #C8E9F9;
+    color:  lightpink;
     
 }
 
