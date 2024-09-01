@@ -36,4 +36,8 @@ header h1 {
    .item{
     flex: 1;
    }
+
+   .two {
+    flex: 2;
+}
     }
