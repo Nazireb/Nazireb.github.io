@@ -30,7 +30,7 @@ header h1 {
 
 @media (min-width: 760px) {
    .columns {
-    display: flex;
+    display: inline;
    }
 
    .item{
