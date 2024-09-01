@@ -19,6 +19,15 @@ header h1 {
     margin: 0 auto;
 }
 
+
+#content a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
 @media (min-width: 760px) {
    .content {
     display: flex;
