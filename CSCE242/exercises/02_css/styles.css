@@ -21,6 +21,7 @@ body {
 #main-nav li {
     list-style-type: none; /* No bullets */
     display: inline-block; /* Appear on one line*/
+   
 }
 #main-nav a {
     text-decoration: none; /* No underline */
