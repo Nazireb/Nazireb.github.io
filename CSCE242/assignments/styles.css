@@ -13,3 +13,8 @@ header h1 {
     border-radius: 5px;
     padding: 10px;
 }
+
+#content section img{
+    display: inline;
+    margin: 0 auto;
+}
