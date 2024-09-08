@@ -31,7 +31,7 @@ header h1 {
 
 
 @media (min-width: 760px) {
-    .two {
+    .content {
         display: flex;
         margin: 10px;
       
