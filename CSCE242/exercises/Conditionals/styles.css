@@ -1,0 +1,68 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider {
+    text-align: center;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.exercises {
+    margin-bottom: 20px;
+}
+
+.exercises a {
+    text-decoration: none;
+    color: black;
+}
+
+.colorslider {
+    margin-bottom: 40px;
+}
+
+
+
+#red {
+    width: 100%;
+}
+
+
+.pic {
+    margin-top: 40px;
+}
+
+button {
+    padding:  20px;
+    margin: 5px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+   
+}
+
+#picture {
+    margin-top: 20px;
+}
+
+#chooser {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+  
+}
+
+#main-footer p {
+    text-align: center;
+}
+
+
+
+
