@@ -28,7 +28,10 @@ header h1 {
     border-radius: 2px;
 }
 
-
+.item {
+    text-align: center;
+    display: block;
+}
 
 @media (min-width: 760px) {
     .content {
