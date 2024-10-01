@@ -1,0 +1,28 @@
+body {
+    background-color: lightgreen;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin-top: 10px;
+}
+
+.images {
+    justify-content: center; 
+}
+
+.images img {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    width: 160px;
+    height: 210px;
+}
+
+@media (min-width: 700px) {
+    .images {
+        display: flex;
+    }
+}
