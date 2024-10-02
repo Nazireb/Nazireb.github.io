@@ -1,5 +1,5 @@
 const imageArray = [
-    {id: 'birthday', title: 'Birthday', description: 'Lets get ready to celebrate'},
+    {id: 'birthday', title: 'Birthday', description: 'Lets get ready to celebrate!'},
     {id: 'clown', title: 'Clown', description: 'Who wants to get a good laugh!'},
     {id: 'rain', title: 'Rain', description: 'I had to get my umbrella because of the rain'},
     {id: 'read', title: 'Read', description: 'Reading is always good for you'},
