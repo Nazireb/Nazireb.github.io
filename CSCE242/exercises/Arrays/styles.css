@@ -9,11 +9,11 @@ h1, h2 {
     margin-top: 10px;
 }
 
-.images {
+.imagess {
     justify-content: center; 
 }
 
-.images img {
+.imagess img {
     border: 1px solid black;
     border-radius: 10px;
     margin: 20px;
@@ -21,7 +21,7 @@ h1, h2 {
 }
 
 @media (min-width: 700px) {
-    .images {
+    .imagess {
         display: flex;
     }
 }
