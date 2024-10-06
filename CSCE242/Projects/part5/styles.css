@@ -1,11 +1,12 @@
 body {
-    background-image: url(Stars.jpeg);
+    background-image: url('Images/snow.avif');
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #2c0f81;
+   /*background-color: #2c0f81;*/
+    background-color: #ab7414;
     padding: 10px;
 }
 
@@ -14,12 +15,23 @@ header a {
     color: white;
 }
 
+header a:hover {
+   background-color: black;
+}
+
 h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
     text-align: center;
 }
 
 h4 {
     text-align: left;
+    color: white;
 }
 
 #smallnav {
@@ -50,9 +62,6 @@ h4 {
     text-align: right;
 }
 
-
-
-
 #nav a {
     text-decoration: none;
     color: white;
@@ -78,18 +87,21 @@ h4 {
 
 .page {
     text-decoration: none;
-    color: black;
+    color: white;
 }
-
 
 #about p {
     width: 100%;
     margin: 0 auto;
+    color: white;
+    text-align: left;
 }
 
 #about h2 {
     width: 70%;
     margin: 10px auto;
+    color: white;
+    text-align: left;
 }
 
 #about img {
@@ -127,30 +139,51 @@ h4 {
 }
 
 .columns {
-    border: 1px solid;
-    width: 100%;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 30px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.column div {
+    padding-left: 10px;
+    text-align: center;
+}
+
+.column div a {
+    text-decoration: none;
+}
+
+.column {
+    border: 1px solid white;
     padding: 20px;
     border-radius: 30px;
     margin: 30px;
     margin-bottom: 20px;
 }
 
-.columns div {
+.column div {
     padding-left: 10px;
+    text-align: center;
 }
 
 .game  {
     text-decoration: none;
     color: black;
+ 
 }
 
 .game img {
     display: block;
     margin: auto;
+   
 }
 
 .game h2, p, h3  {
     text-align: center;
+    color: white;
 }
 
 #signup {
@@ -175,16 +208,20 @@ h4 {
     width: 100%;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 768px) {
     .game {
         display: flex;
     }
     .columns{
-        flex: 1;
+        flex: 1; 
     }
+
+    .column{
+        flex: 1; 
+    }
+
     #nav a {
         text-align: right;
-     
     }
 
     .flex {

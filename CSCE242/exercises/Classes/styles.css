@@ -1,0 +1,43 @@
+body {
+    background-color: navy;
+}
+
+header {
+    text-align: center;
+    color: gold;
+}
+
+footer {
+    color: gold;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bird {
+    background-color: gold;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-right: 50px;
+
+}
+
+.bird img {
+   width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+
+@media only screen and (min-width: 600px) {
+    .flex {
+        display: flex;
+    }
+    .columns {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
