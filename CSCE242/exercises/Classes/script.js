@@ -52,7 +52,7 @@ class Bird {
 
     picture(info) {
         const pic = document.createElement("img");
-        pic.src = "images/eagle.png" + info;
+        pic.src = "images/" + info;
         return pic;
     }
 
