@@ -64,10 +64,10 @@ class Bird {
 }
 
 const birds = [];
-birds.push(new Bird("Bald Eagle", "74-99 mph", "Black and White", "5.9 - 7.5ft", "28 - 40 inches", "Large hooked", "Fish", "eagle.jpg"));
-birds.push(new Bird("Blue Jay", "20-25 mph", "Blue", "13-17in", "9.8 - 11.8 inches", "Strong straight and slightly pointed", "Different types of nuts and seeds ", "bluejay.jpg"));
-birds.push(new Bird("Falcon", "240 mph", "blue-gray and white", "2.4 - 3.9ft", "1.5ft", "Hooked", "Shorebirds, ducks, gulls etc.", "falcon.jpg"));
-birds.push(new Bird("Zebra Finch", "10-12 mph", "Gray and White", "7.9 to 9.8in", "4 -5 inches", "Conical", "Seeds", "zebrafinch.jpg"));
+birds.push(new Bird("Bald Eagle", "74-99 mph", "Black and White", "5.9 - 7.5ft", "28 - 40 inches", "Large hooked", "Fish", "eagle.png"));
+birds.push(new Bird("Blue Jay", "20-25 mph", "Blue", "13-17in", "9.8 - 11.8 inches", "Strong straight and slightly pointed", "Different types of nuts and seeds ", "bluejay.png"));
+birds.push(new Bird("Falcon", "240 mph", "blue-gray and white", "2.4 - 3.9ft", "1.5ft", "Hooked", "Shorebirds, ducks, gulls etc.", "falcon.png"));
+birds.push(new Bird("Zebra Finch", "10-12 mph", "Gray and White", "7.9 to 9.8in", "4 -5 inches", "Conical", "Seeds", "zebrafinch.png"));
 
 
 birds.forEach((bird) => {

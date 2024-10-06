@@ -34,19 +34,6 @@ h4 {
     color: white;
 }
 
-#smallnav {
-    background-color: blanchedalmond;
-    border-radius: 5px;
-    width: 30px;
-    height: 20px;
-}
-
-.lines {
-    padding: 2px;
-    width: 100%;
-    margin: 0 auto;
-    border-bottom: 1px solid black;
-}
 
 .active {
     display: block;
@@ -60,9 +47,10 @@ h4 {
 
 #nav {
     text-align: right;
+    
 }
 
-#nav a {
+#nav li {
     text-decoration: none;
     color: white;
     display: inline-block;
@@ -208,6 +196,17 @@ h4 {
     width: 100%;
 }
 
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: gray;
+    margin: 6px 0;
+}
+
+.flex1 {
+    display: none;
+}
+
 @media only screen and (min-width: 768px) {
     .game {
         display: flex;
@@ -220,7 +219,7 @@ h4 {
         flex: 1; 
     }
 
-    #nav a {
+    #nav li {
         text-align: right;
     }
 
@@ -229,9 +228,14 @@ h4 {
     }
     .flex1 {
         flex: 1;
+        display: block;
     }
 
-    #smallnav {
+    .nav li{
+        display: inline-block;
+    }
+
+    #hamburger {
         display: none;
     }
 }
