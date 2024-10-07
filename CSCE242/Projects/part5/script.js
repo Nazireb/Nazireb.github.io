@@ -4,9 +4,9 @@ document.getElementById("signup").addEventListener("click", () => {
 });
 
 const toggleNav = () => {
-    document.getElementById("main-nav-items").classList.toggle("hidden");
+    document.getElementById("nav").classList.toggle("hidden");
 };
 
 window.onload = () => {
-    document.getElementById("nav-toggle").onClick = toggleNav;
+    document.getElementById("hamburger").onClick = toggleNav;
 }

@@ -22,20 +22,6 @@ h4 {
     text-align: left;
 }
 
-#smallnav {
-    background-color: blanchedalmond;
-    border-radius: 5px;
-    width: 30px;
-    height: 20px;
-}
-
-.lines {
-    padding: 2px;
-    width: 100%;
-    margin: 0 auto;
-    border-bottom: 1px solid black;
-}
-
 .active {
     display: block;
 }
@@ -50,7 +36,9 @@ h4 {
     text-align: right;
 }
 
-
+.hidden {
+    display: none;
+}
 
 
 #nav a {
