@@ -45,25 +45,26 @@ h4 {
   
 }
 
-#main-nav-items {
+#nav {
     text-align: right;
+    
 }
 
-#main-nav-items li {
+#nav li {
     text-decoration: none;
     color: white;
     display: inline-block;
     padding: 5px;
-    text-align: right;
+   
 }
 
-#main-nav-items ul {
+#nav ul {
     list-style-type: none; 
     display: inline-block; 
     padding: 5px;
 }
 
-#main-nav-items a:hover {
+#nav a:hover {
     color: blanchedalmond;
 }
 
@@ -195,7 +196,7 @@ h4 {
     width: 100%;
 }
 
-#nav-toggle div {
+#hamburger div {
     width: 35px;
     height: 5px;
     background-color: gray;
@@ -222,11 +223,7 @@ h4 {
         flex: 1; 
     }
 
-    #main-nav-itmes {
-        display: flex;
-    }
-
-    #main-nav-items li {
+    #nav li {
         text-align: right;
     }
 
@@ -238,11 +235,11 @@ h4 {
         display: block;
     }
 
-    .main-nav-items li{
+    .nav li{
         display: inline-block;
     }
 
-    #nav-toggle {
+    #hamburger {
         display: none;
     }
 }
