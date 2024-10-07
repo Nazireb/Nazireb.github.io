@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+}
+
+
+#main-nav-items {
+    font-size: 1.2cm;
+}
+.hidden {
+    display: none;
+}
+
+#main-nav ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+#main-nav a {
+    text-decoration: none;
+}
+
+#mian-nav li {
+    padding: 10px;
+}
+#nav-toggle div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+
+}
+
+
+
+@media (min-width: 900px) {
+    #main-nav-items {
+        display: flex;
+    }
+
+    #main-nav-items li {
+        flex: 1;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+}
