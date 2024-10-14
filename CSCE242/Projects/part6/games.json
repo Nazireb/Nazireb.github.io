@@ -3,6 +3,7 @@
         "_id" : 1,
         "img_name": "Images/GodofWar.avif",
         "info": [
+            "GamerLand",
             "God of War Ragarok",
             "God of War Ragarok is a sequal to God of War (2018), in when Kratos and his son Atreus fight against gods and monsters in a battle to stop Ragnarok."
         ], 
@@ -17,6 +18,7 @@
         "_id" : 2,
         "img_name": "Images/2k25.jpg",
         "info": [
+            "GamerLand",
             "2k25",
             "NBA 2k25 is a popular basketball simulation game with updated rosters, real animations and more."
         ], 
@@ -31,6 +33,7 @@
         "_id" : 3,
         "img_name": "Images/Madden25.avif",
         "info": [
+            "GamerLand",
             "Madden 25",
             "Madden 25 is a popular Football game with updated rosters, imporved AI and more. Madden 25 provides the most authentic NFL experience for football fans."
         ], 
@@ -45,6 +48,7 @@
         "_id" : 4,
         "img_name": "Images/MW3.webp",
         "info": [
+            "GamerLand",
             "Call of Duty: Morden Warfare 3",
             "Call of Duty: Morden Warfare 3 is a first-person shooter that continues the gripping story of global warfare, offering fast-paced combat across a variety of iconic locations."
         ], 
@@ -59,6 +63,7 @@
         "_id" : 5,
         "img_name": "Images/CFB25.png",
         "info": [
+            "GamerLand",
             "College Football 25",
             "College Football 25 is the full College football experience in a video game. College Football 25 also introduces advanced AI, making each game feel more realistic and challenging."
         ], 
@@ -73,6 +78,7 @@
         "_id" : 6,
         "img_name": "Images/EldenRing.jpeg",
         "info": [
+            "GamerLand",
             "Elden Ring",
             "Elden ring is an open-world action RPG from the creators of Dark Souls, blending challenging combat with deep lore and exploration in a haunting world."
         ], 
@@ -87,6 +93,7 @@
         "_id" : 7,
         "img_name": "Images/Undisputed.jpeg",
         "info": [
+            "GamerLand",
             "Undisputed",
             "Undisputed is a realistic boxing simulation game that offers an authentic experience for boxing fans. It features licensed fighters, arenas, and an emphasis on strategic gameplay, with detailed controls for punches, blocks, and movements."
         ], 
@@ -101,6 +108,7 @@
         "_id" : 8,
         "img_name": "Images/fifa.avif",
         "info": [
+            "GamerLand",
             "FIFA25",
             "FIFA 25 is the latest installment in the popular football (soccer) simulation series, known for its realistic gameplay and expansive features. It offers improved graphics, more refined player movements, and advanced ball physics for an authentic match experience."
         ], 
