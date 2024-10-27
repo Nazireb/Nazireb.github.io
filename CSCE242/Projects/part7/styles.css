@@ -211,6 +211,14 @@ h4 {
     display: none;
 }
 
+#map {
+    display: block;
+    padding: 5px;
+    max-width: 100%;
+    width: 40%;
+    margin: 0 auto;
+}
+
 #contact {
     border: 1px solid;
     border-radius: 5px;
@@ -221,6 +229,9 @@ h4 {
     width: 30%;
 }
 
+#contact input {
+    display: block;
+}
 
 
 
