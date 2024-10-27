@@ -41,11 +41,38 @@
         </section>
         
         <h2> Contact us </h2>
+        <form id="contact" action="https://api.web3forms.com/submit" method="POST">
+
+            <iframe id="map" height="600" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1555.0203465000532!2d-80.84549399965611!3d35.231137771735526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8856a0257b5d9bbb%3A0x44ba92062e8c0671!2sThe%20VUE%20Charlotte%20On%205th!5e0!3m2!1sen!2sus!4v1730060499951!5m2!1sen!2sus"  
+            allowfullscreen="" 
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <br>
+            <input type="hidden" name="access_key" value="fbf73bf8-07fe-4f41-bec0-9036866eb458">
+            
+            <label for="name">Name: </label><br>
+            <input type="text" name="name" required>
+            <br>
+
+            <label for="email">Email: </label><br>
+            <input type="text" name="email" required>
+            <br>
+
+            <label for="message">Message: </label><br>
+            <textarea name="message" required></textarea>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <br>
+
+
+            <button type="submit">Submit Form</button>
+            <p id="result"></p>
+        </form>
+   
         <p>
             Email: GamerLand@gamer.com
             Phone: +1 (123) 456-7890 <br>
             Our customer support team is avaibale Monday-Sunday 9:00am to 9:00 pm
         </p>
         <scrpit src="script.js"></scrpit>
+        <script src="contact.js"></script>
     </body>
 </html>
