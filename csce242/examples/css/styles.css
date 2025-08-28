@@ -1,0 +1,42 @@
+/* Structure */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("images/jungle.jpeg");
+    background-size:cover;
+}
+
+#content {
+    background: beige;
+    width:70%;
+    margin:auto; /* center */
+    padding:1%; /* get text away from edge */
+    border-radius: 5px;  /* round corners */
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px 10px; /* top and botom 5, right and left 10 */
+}
+
+th {
+    background: white;
+}
+
+/* img */
+#Giraffe {
+    box-shadow: 7px 7px lightsalmon;
+}
+
+/* Typography */
+h1 {
+    color: lightblue;
+}
+
+h2 {
+    color: lightsalmon;
+}

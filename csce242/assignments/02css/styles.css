@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url("images/summer-leaves-branches-background-wallpaper-preview.jpg");
+    background-size:cover;
+}
+
+#apple {
+     border-radius: 8px; 
+     padding: 5px;
+}
+
+#content {
+    background: rgb(38, 121, 38);
+    width:70%;
+    margin:auto; 
+    padding:1%; 
+    border-radius: 5px; 
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid yellowgreen;
+    padding: 5px 10px; 
+}
+
+th {
+    background: yellowgreen;
+}

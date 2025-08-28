@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: tan;
+    color: lightslategray;
+}
+
+#content {
+    background: lavenderblush;
+    width:70%;
+    margin:auto;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+}
