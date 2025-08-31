@@ -1,16 +1,39 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: tan;
-    color: lightslategray;
+    background: grey;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.body {
+    text-align: center;
+    display: block;
 }
 
 #content {
-    background: lavenderblush;
     width:70%;
     margin:auto;
 }
 
-a {
+#content ul {
+    background: lightblue;
+    list-style-type: none;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a, ul {
     text-decoration: none;
-    color: lightblue;
+    color: grey;
+}
+
+@media only screen and (min-width: 768px) {
+
+    #content {
+        display: flex;
+    }
 }
