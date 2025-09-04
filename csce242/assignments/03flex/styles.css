@@ -1,0 +1,107 @@
+body {
+    background: #f2f0d5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-header h1 {
+    text-align: center;
+    color: #5d878c;
+}
+
+#main-header ul {
+    background: #ce7c7c;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#main-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.flex {
+    margin: 5px;
+}
+
+aside {
+    color: white;
+    display: flex;
+    padding: 10px;
+}
+
+aside li, a {
+    list-style-type: none;
+    color: white;
+}
+
+#last-nav {
+    background: #ce7c7c;
+    padding: 20px;
+}
+
+#last-nav ul {
+    padding: 30px;
+}
+
+section {
+    margin: 15px;
+}
+
+
+
+#gallery {
+    flex-wrap: wrap;
+}
+
+#gallery section {
+    width: 15%;
+}
+
+#title {
+    background: #5d878c;
+    padding: 10px;
+}
+
+#gal {
+    background: #a4bfb8;
+    padding: 10px;
+}
+
+#main-footer {
+    background: #ce7c7c;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.two h3 {
+    color: #5d878c;
+}
+
+.two {
+    color: #5d878c;
+}
+
+@media only screen and (min-width: 768px) {
+    #main-nav li {
+        flex:1;
+    }
+
+    .columns {
+        display: flex;
+    }
+
+    .two {
+        flex:2;
+    }
+
+    .three {
+        flex:3;
+    }
+
+}
