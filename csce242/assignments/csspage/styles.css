@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#main-header {
+ background:black;
+}
+
+#main-nav ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#main-nav li, #main-nav a {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+    text-align: end;
+}
+
+.sub-nav, .sub-nav li {
+    background: #750109;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+#center p {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+
+#showcase {
+    position:relative;
+}
+
+#showcase p {
+    background:rgba(0,0,0, 0.7);
+    color:white;
+    padding:10px;
+    width:fit-content;
+    position:absolute;
+    bottom:20%;
+    left:5%;
+}
+
+#showcase img {
+    width: 100%;
+}
+
+#news {
+    padding: 20px;
+}
+
+
+.news-content {
+    display: flex;
+}
+
+.news-content h3 {
+    color: #750109;
+}
+
+h2 {
+    text-align: center;
+    color: #750109;
+}
+
+.news-img img {
+   display: block;
+   border-radius: 5px;
+}
+
+.foot {
+    background: #750109;
+    display: flex;
+    padding: 30px;
+   
+}
+
+footer li {
+    list-style-type: none;
+
+}
+
+.afooter a {
+    text-decoration: none;
+}
+
+#small-footer {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#small-footer p {
+    color: white;
+}
+
+#links {
+    display: flex;
+    gap: 0;
+}
+
+#links a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .columns  {
+        display: flex;
+    }
+
+    #sub-nav {
+        display: flex;
+    }
+
+    .news-content {
+        display: flex;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #small-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
