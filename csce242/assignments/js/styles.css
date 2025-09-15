@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+}
+
+.column {
+    background: grey;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.column img {
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        display: block;
+        align-items: center;
+    }
+}
