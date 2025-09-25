@@ -1,0 +1,120 @@
+:root{
+  --cloud:#e9e9e9;
+  --cloud-hi:#ffffff;
+  --leaf:#0b9300;
+  --trunk:#9a5d3a;
+  --sun:#ffcc00;
+  --moon:#f6e896;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    max-width: 1100px;
+}
+
+#scene {
+    position: relative;
+    background: lightblue;
+    overflow: hidden;
+    height: 500px;
+}
+
+#scene.night {
+    background: black;
+}
+
+#scene h1 {
+    text-align: center;
+}
+
+#scene h2 {
+    text-align: center;
+}
+
+#btn {
+    display: block;
+    cursor: pointer;
+    margin: auto;
+}
+
+/* CSS Art */
+.cloud{
+  position:absolute;
+  width:90px; height:90px;
+  border-radius:50%;
+  background:var(--cloud);
+  top:160px;
+  box-shadow:
+    -60px 20px 0 0 var(--cloud),
+    -30px 10px 0 0 var(--cloud-hi),
+    0px 25px 0 0 var(--cloud),
+    30px 10px 0 0 var(--cloud-hi),
+    60px 20px 0 0 var(--cloud);
+  opacity:.96;
+}
+
+.tree { 
+  position:absolute; 
+  width:96px; 
+  height:140px; 
+  bottom:30px; 
+}
+
+.tree .crown {
+  width:84px; 
+  height:84px; 
+  border-radius:50%;
+  background:var(--leaf); 
+  margin:0 auto;
+}
+.tree .trunk {
+  width:22px; 
+  height:42px; 
+  background:var(--trunk);
+  border-radius:4px; 
+  margin:8px auto 0;
+}
+
+.sun{
+  position:absolute;
+  width:110px; 
+  height:110px;
+  top:36px; 
+  right:36px;
+  border-radius:50%;
+  background:var(--sun);
+  box-shadow:0 0 0 6px rgba(0,0,0,.02) inset;
+}
+
+.moon{
+  position:absolute;
+  width:110px; 
+  height:110px;
+  top:36px; 
+  right:36px;
+  border-radius:50%;
+  background:var(--moon);
+}
+.moon::after{
+  content:"";
+  position:absolute; 
+  inset:0; 
+  border-radius:50%;
+  box-shadow:-22px 0 0 0 #020317 inset;
+}
+
+@media (max-width:700px){
+  #scene {
+    height:420px
+  }
+  .sun,.moon {
+    width:84px;
+    height:84px;
+    top:24px;
+    right:24px
+  }
+  .cloud {
+    transform:scale(.9)
+  }
+}
