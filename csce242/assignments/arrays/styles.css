@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    margin: auto;
+    padding: 20px;
+    max-width: 1100px;
+}
+
+header {
+    text-align: center;
+}
+
+#cards {
+    display: flex;                                
+    justify-items: center;                 
+    padding: 10px; 
+    justify-content: space-between;
+}
+
+.card {
+    width: 220px;                                    
+    border: 0;                               
+    background: transparent;                 
+    cursor: pointer;    
+}
+
+.frame {
+    position: relative;
+    width: 220px;                           
+    overflow: hidden;
+    background: white;                        
+    border: 10px solid lightblue;              
+    border-radius: 14px;  
+}
+
+.hidden {
+    display: none;
+}
+
+.frame img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
+}
+
+.frame:hover .caption {
+    transform: translateY(0);
+}
+
+.caption {
+    position:absolute;
+    left:0; 
+    right:0; 
+    bottom:0;
+    padding:12px;
+    text-align:center;
+    color: white;
+    background: pink;
+    transform:translateY(100%);
+}
+
+.after {
+    display: none;
+}
+
+.popup {
+    position: fixed;
+    inset: 0;
+    place-items: center;                     
+    background: transparent;               
+}
+
+.popup-card {
+    width: 20%;
+    height: auto;
+    background: white;
+    padding: 15px;
+}
+
+.popup-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.close-btn {
+    cursor: pointer;
+    user-select: none;
+}
+
+#popup-img {
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (min-width: 468px) {
+    #cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  .card{
+    width: 45%; 
+    max-width: 260px;
+  }
+  .frame{
+    width: 100%;
+  }
+}
