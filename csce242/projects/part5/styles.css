@@ -129,9 +129,11 @@ div a {
 }
 
 #travel .left img {
-    width: 90%;
+    width: 100%;
     margin: 0;
+    height: auto;
     max-width: 100%;
+    display: block;
     object-fit: cover;
 }
 
@@ -240,6 +242,21 @@ footer {
     #main-nav {
         position: relative;
     }
+
+    #travel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #travel .cards {
+        width: 100%;
+        margin: auto;
+    }
+
+    #travel .left {
+        width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
