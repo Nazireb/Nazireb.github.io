@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 11</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main class="content">
+            <h1>Asingment 11</h1>
+            <h2>Classes</h2>
+        <section id="gallery"></section>
+        <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+                <header class="w3-container w3-header">
+                    <span class="w3-button w3-display-topright" onclick="document.getElementById('id01').style.display='none'">&times;</span>
+                    <h2 id="modal-title">Modal Header</h2>
+                </header>
+                <div class="w3-container">
+                    <p class="byline">by <span id="modal-artist"></span></p>
+                    <div id="modal-img-wrap" class="modal-img-wrap">
+                    <img id="modal-img" class="modal-img" alt="">
+                    </div>
+                    <p id="modal-frame-note" class="frame-note" hidden></p>
+                </div>
+            </div>
+         </div>
+        </main>
+        <script src="class.js"></script>
+    </body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    margin: auto;
+    padding: 20px;
+}
+
+.content h1, .content h2 {
+    text-align: center;
+}
+
+#gallery {
+    display: flex;
+    align-items: start;
+    gap: 15px;
+}
+
+.card {
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    flex: 1 1 240px;
+}
+
+.thumb {
+    width: 100%;
+    height: auto;
+}
+
+.modal-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.modal-img-wrap {
+    background: transparent;
+    padding: 10px;
+}
+
+.modal-img-wrap.framed img {
+    border: 10px solid black;
+    background: black;
+}
+
+.w3-modal-content {
+    width: 35%;
+}
+
+@media only screen and (min-width: 468px) {
+
+    #gallery {
+        display: flex;
+        flex-wrap: wrap;
+  }
+    .card {
+        width: 45%;
+        max-width: 260px;
+  }
+    .frame { 
+        width: 100%; }
+}

@@ -1,0 +1,289 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background: rgb(1, 1, 67);
+    color: gold;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+#nav-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+.columns {
+    display: flex;
+}
+
+#nav-items a {
+    display: block;
+    color: gold;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#nav-items a:hover {
+    background: grey;
+}
+
+.hide-small {
+    display: none;
+}
+
+#toggle-nav div {
+    width:25px;
+    height:2px;
+    background-color: white;
+    margin:6px 0;
+}
+
+#toggle-nav {
+    cursor: pointer;
+}
+
+/* Home page */
+#showcase {
+    position: relative;
+}
+
+#showcase img {
+    width: 100%;
+    display: block;
+ 
+}
+
+#showcase p {
+    position: absolute;
+    background:rgba(0,0,0, 0.7);
+    color:white;
+    padding:10px;
+    width:fit-content;
+    position:absolute;
+    bottom:20%;
+    left:5%;
+}
+
+.cards {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    padding: 15px;
+}
+
+.card img {
+    display: block;
+    width: 100%;
+}
+
+.secti .card {
+    width: 30%;
+    display: inline;
+    
+}
+
+section h2 {
+    text-align: center;
+}
+
+div a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Destinations */
+
+
+/* Travel */
+#travel {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#travel .left h2 {
+    text-align: left;
+    font-size: 2rem;
+}
+
+#travel .left p {
+    font-size: 1.2rem;
+}
+
+#travel .left img {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.guides {
+    display: flex;
+    justify-content: space-between;
+}
+
+#travel .cards {
+    width: 50%;
+    text-align: center;
+    margin-left: 200px;
+}
+
+#travel .card {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    margin: auto;
+}
+
+/* About us */
+.about {
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 2rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.about img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+/* FAQ */
+.faqs {
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.faq {
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+}
+
+.faq h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.faq h3 {
+    font-size: 1.2rem;
+}
+
+.faq p {
+    font-size: 1.2rem;
+    margin: 0;
+    color: grey;
+}
+
+/* Preview */
+#preview {
+    padding: 20px;
+    text-align: center;
+}
+
+#preview img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    color: grey;
+}
+
+@media only screen and (max-width: 767px) {
+    #toggle-nav {
+        display: block;
+        cursor: pointer;
+    }
+
+    #nav-items.hide-small {
+        display: none;
+    }
+
+    #nav-items {
+        display: flex;              
+        flex-direction: column;     
+        position: absolute;
+        top: 100%;                  
+        background: black;                            
+        border-radius: 8px;
+        padding: 6px;
+        z-index: 3000;
+    }
+
+    #main-nav {
+        position: relative;
+    }
+
+    #travel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #travel .cards {
+        width: 100%;
+        margin: auto;
+    }
+
+    #travel .left {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .about {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    .hide-small {
+        display: flex;
+    }
+
+    #nav-items {
+        display: flex;
+        
+    }
+
+    .columns {
+        display: flex;
+    }
+
+    .secti .card {
+        display: inline-block;
+    }
+
+    #toggle-nav {
+        display: none;
+    }
+
+}
