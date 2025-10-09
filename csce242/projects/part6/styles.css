@@ -155,6 +155,30 @@ div a {
 
 /* Destinations */
 
+#content h2 {
+    text-align: center;
+}
+
+#destinations-list {
+    display: flex;
+    flex-wrap: wrap;              
+    justify-content: center;     
+    max-width: 1200px;         
+    margin: auto;
+    padding: 16px;
+}
+
+#destinations-list .card {
+    max-width: 360px;
+    width: 100%;
+}
+
+#destinations-list .card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+
+}
 
 /* Travel */
 #travel {
