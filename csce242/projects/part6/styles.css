@@ -81,23 +81,32 @@ header {
 }
 
 .cards {
+    justify-items: center;
+    align-items: start;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .card {
     display: inline-block;
     padding: 15px;
+    width: 100%;
+    max-width: 360px;
+    vertical-align: top;
 }
 
 .card img {
-    display: block;
     width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
 }
 
 .secti .card {
     width: 30%;
     display: inline;
-    
 }
 
 section h2 {
@@ -107,6 +116,41 @@ section h2 {
 div a {
     text-decoration: none;
     color: black;
+}
+
+#trending {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 15px;
+}
+
+#trending h2 {
+    text-align: center;
+}
+
+#trending .scroll {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trend-card {
+    width: 360px;
+    text-align: center;
+}
+
+.trend-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+#inspire p {
+    text-align: center;
 }
 
 /* Destinations */
